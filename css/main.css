@@ -1,0 +1,11 @@
+
+#contenedor_direccion{
+    /* background: rgb(255, 230, 0); */
+    background: lightsalmon;
+}
+.seccion{
+    border: 2px solid rgb(206, 192, 0);;
+}
+li{
+    text-decoration: underline;
+}
