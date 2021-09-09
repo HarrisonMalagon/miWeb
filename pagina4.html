@@ -1,0 +1,113 @@
+
+
+    {% comment %} - fieldset borde, con legend el titulo del borde
+    - radio, checked
+    - select, size los visibles, multiple
+    - checkbox
+    - textarea rows, cols
+    - datalist + option elementos predefinidos
+    - hidden
+    - button, reset {% endcomment %}
+
+    <h2>Ejemoplo Formuladrio</h2>
+<section>
+    <form action="">
+        <input type="hidden" value="29009">
+        <fieldset>
+            <legend>Primera Parte</legend>
+            <label form="Test">Test	
+            <input id="Test" value="Test" maxlength="5" 			placeholder="Escriba el Nombre" type="text" readonly disabled>
+            </br>
+        </label>
+        <label form="nombre">Nombre
+            <input id="nombre" value="Carlos" maxlength="20" 			placeholder="Escriba el Nombre" type="text"  >
+        </label>
+    </br>
+    <label for="edad">Edad
+        <input id="edad" type="range" min="18" max="28" step="1">
+        </label>
+    </br>
+    <label for="tiempoEnEmpresa">Tiempo en Empresa
+    <input id="tiempoEnEmpresa" type="number"  min="1" max="10" step="2" value="3">
+        </label>
+    </br>
+    <label for="salario">Salario
+    <input id="salariro" type="number"  min="500" max="2000" step="2" value="1000">
+        </label>
+    </br>
+    <label for="pass">Ingrese la clave
+    <input id="pass" type="password" >
+    </label>
+    </br>
+    <label for="pass">Ingrese la clave
+    <input id="pass" type="date" min="2021-09-07" value="2021-10-07" max="2021-11-07">
+    </label>
+
+    </br>
+    <label for="color">Color
+    <input id="color" type="color" >
+    </label></br>
+    <input id="color" type="file" multiple ></br>
+    <input id="color" type="email" ></br>
+        </fieldset>
+        <artitle>
+            
+        </artitle>	
+        <input type="button" value="Enviar">
+        <input type="submit">
+        <input type="reset" value="reset">
+        <fieldset>
+            <legend>Parte 2</legend>
+            <select name="" id="">
+            <option value="1">Medellin</option>
+            <option value="2">Bogota</option>
+            <option value="3" id="">Cali</option>
+            </select><br>
+            
+            <input type="radio" name="estado_Civil">
+            <label for="">Casado
+            </label><br>
+            <input type="radio"name="estado_Civil" checked>
+            <label for="">Soltero
+            </label><br>
+            <input type="radio"name="estado_Civil">
+            <label for="">Union libre
+            </label><br>
+            <input type="radio"name="estado_Civil">
+            <label for="">Viudo
+            </label><br>
+            <br><br>
+            <label for="">
+                <input type="checkbox" checked>
+                Dibujar
+            </label>
+            <label for="">
+                <input type="checkbox">
+                Nadar
+            </label>
+            <label for="">
+                <input type="checkbox">
+                Futbol
+            </label>
+            <label for="">
+                <input type="checkbox">
+                Video Juegos
+            </label>
+            <br><br>
+            
+            <textarea name="" id="" cols="50" rows="5"></textarea>
+            
+            
+        </fieldset>
+        <label for="">Ciudad
+        <input type="text" name="ciudad"list="listaCiudades">
+        <datalist id="listaCiudades">
+            <option value="">Magdalena</option>
+            <option value="">Medellin</option>
+            <option value="">Monteria</option>
+            <option value="Santafe de Bogota">bogota</option>
+        </datalist>
+        </label>
+
+    </form>
+</section>

@@ -1,11 +1,117 @@
-
-#contenedor_direccion{
+#contenedor_direccion {
     /* background: rgb(255, 230, 0); */
     background: lightsalmon;
 }
-.seccion{
-    border: 2px solid rgb(206, 192, 0);;
+
+.seccion {
+    border: 2px solid rgb(206, 192, 0);
+    ;
 }
-li{
+
+li {
     text-decoration: underline;
 }
+
+body {
+    background-color: lightgray;
+}
+
+#paisaje {
+    position: relative;
+    width: 800px;
+    height: 500px;
+    border: 1px solid gray;
+    background: #00BFFF;
+    margin: 30px auto;
+    overflow: hidden;
+}
+
+.objeto {
+    position: absolute;
+}
+
+#luna {
+    top: -50;
+    right: 100px;
+}
+
+#nevado {
+    bottom: -29px;
+    left: -30px;
+}
+
+#nevado2 {
+    bottom: -29px;
+    right: -30px;
+}
+
+#foca {
+    bottom: -10px;
+    left: 30;
+}
+
+#nube2 {
+    top: 0px;
+    right: 350px;
+}
+
+#menu_redes{
+    position:fixed;
+    background-color:lightskyblue;
+    width:130px;
+    text-align:center;
+    top:0px;
+    right:0px;
+    border-radius:0px 0px 0px 20px;
+  }
+
+  
+  #contenedor{
+    position:relative;
+    width:600px;
+    height:400px;
+    background:yellow;
+    margin: 90px auto;
+    border:5px solid darkgoldenrod;
+  }
+  .circulo{
+    position:absolute;
+    width:200px;
+    height:200px;
+    border-radius:100%;
+  }
+  
+  .azul{
+    background-color:blue;
+    top:80px;
+    left:150px;
+    z-index:2;
+  }
+  .rojo{
+    background-color:red;
+    left:180px;
+    top:40px;
+    z-index:3;
+  }
+  
+  .blanco{
+    background-color:white;
+    left:250px;
+    top:60px;
+    z-index:0;
+  }
+  .verde{
+    background-color:green;
+    left:220px;
+    top:90px;
+    z-index:2;
+  }
+  
+  h1{
+    font-family:sans-serif;
+    position:absolute;
+    right:10px;
+    bottom:0px;
+    font-size:16px;
+    color:orange;
+  }
