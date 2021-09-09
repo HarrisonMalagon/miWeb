@@ -1,0 +1,60 @@
+h1{
+    color: orange;
+    font-family: cursive;
+}
+#titulo{
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Negrilla*/
+.negrilla{
+    font-weight: bold;
+}
+
+#cabecera  {
+    /* background-color: lightgray; */
+    /* width: 100%; */
+    width: 100vw;/* vw Ancho de la pantalla*/
+    height: 35vh;/* vh Alto de la pantalla*/
+    overflow: hidden;/*Oculta los desbordamientos*/
+
+    /* margin margen hacia afuera
+    padding margen hacia adentro */
+}
+#cuerpo{
+
+}
+body{
+    margin: 0px;
+    background-color: lightskyblue;
+}
+#contText{
+    /* background-color: lightsalmon; */
+    width: 50%;
+    height: 120%;
+    float: left; /*Posiciona a el Hijo */
+    text-align: center;
+}
+
+#contImg{
+    /* background-color: blueviolet; */
+    width: 50%;
+    height: 100%;
+    float: right;
+    
+}
+#contImagen img {
+    padding-left: 50px;
+}
+#tituloCabecera{
+    font-size: 4rem;
+}
+#subtitulo{
+    font-size: 2.5rem;/*rem,em,pt*/
+}
+table,tr,td,th{
+    border: 1px solid black;
+}
+table{
+    width: 50%;
+}
