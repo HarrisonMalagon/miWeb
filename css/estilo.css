@@ -1,9 +1,9 @@
 h1{
-    color: orange;
+    color: gainsboro;
     font-family: cursive;
 }
 #titulo{
-    color: green;
+    color: lightslategrey   ;
     font-family: Arial, Helvetica, sans-serif;
 }
 /* Negrilla*/
@@ -26,7 +26,7 @@ h1{
 }
 body{
     margin: 0px;
-    background-color: lightskyblue;
+    background-color:peru;
 }
 #contText{
     /* background-color: lightsalmon; */
@@ -34,9 +34,10 @@ body{
     height: 120%;
     float: left; /*Posiciona a el Hijo */
     text-align: center;
+    margin-top: 30px;
 }
 
-#contImg{
+#contImagen{
     /* background-color: blueviolet; */
     width: 50%;
     height: 100%;
@@ -44,7 +45,10 @@ body{
     
 }
 #contImagen img {
-    padding-left: 50px;
+    padding-left: 25%;
+    padding-top: 10%;
+    /* text-align: center; */
+
 }
 #tituloCabecera{
     font-size: 4rem;
