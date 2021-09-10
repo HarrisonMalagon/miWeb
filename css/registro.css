@@ -1,0 +1,45 @@
+body{
+    background-color:lightslategray;
+}
+header{
+    text-align: center;
+}
+
+table{
+    
+}
+table,tr,th,td{
+    border: 1px solid black;
+}
+th{
+
+}
+#formulario{
+    width: 50%;
+    float: left;
+    
+}
+
+#contTabla{
+    width: 50%;
+    float: right;
+}
+#boton{
+    background-color: blue;
+    color: white;
+}
+#registro{
+    width: 10rem;
+    padding: 0.5rem;
+    text-align: center;
+    background-color: rgb(25, 160, 218);
+    cursor: pointer;
+    border-radius: 40px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+#registro:hover{
+    background-color: azure;
+    color: black;
+}
