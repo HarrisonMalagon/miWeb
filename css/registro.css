@@ -1,5 +1,5 @@
 body{
-    background-color:lightslategray;
+    background-color:white;
 }
 header{
     text-align: center;
@@ -9,14 +9,30 @@ table{
     
 }
 table,tr,th,td{
-    border: 1px solid black;
+    
+    border: 1px solid green;
 }
 th{
+    /* ENCABEZADO */
+    background-color: green;
+    color: white;
+}
+td{
+    /* background-color: lightgreen;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.5)); */
 
+}
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+tr:nth-child(even) {
+    background-color: #4bff19;
 }
 #formulario{
     width: 50%;
     float: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     
 }
 
@@ -37,6 +53,7 @@ th{
     border-radius: 40px;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 1px 1px 1px black;   
     
 }
 #registro:hover{
